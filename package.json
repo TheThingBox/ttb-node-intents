@@ -1,0 +1,15 @@
+{
+  "name": "ttb-node-intents",
+  "version": "1.0.0",
+  "node-red": {
+    "nodes": {
+      "intents": "Intents.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "intents"
+  ],
+  "author": "http://www.digitalairways.com/",
+  "license": "http://www.wtfpl.net"
+}

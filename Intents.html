@@ -1,0 +1,151 @@
+<script type="text/x-red" data-template-name="Invert">
+</script>
+
+<script type="text/x-red" data-help-name="Invert">
+  <p>Invert the intent:  on/open <=> off/close...</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('Invert',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - Invert"
+  });
+</script>
+
+<script type="text/x-red" data-template-name="Open">
+</script>
+
+<script type="text/x-red" data-help-name="Open">
+  <p>Force open/on intent (value 1)</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('Open',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - Open"
+  });
+</script>
+
+<script type="text/x-red" data-template-name="More">
+</script>
+
+<script type="text/x-red" data-help-name="More">
+  <p>Force "More" intent (value 2)</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('More',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - More"
+  });
+</script>
+
+<script type="text/x-red" data-template-name="Less">
+</script>
+
+<script type="text/x-red" data-help-name="Less">
+  <p>Force "Less" intent (value 3)</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('Less',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - Less"
+  });
+</script>
+
+<script type="text/x-red" data-template-name="Close">
+</script>
+
+<script type="text/x-red" data-help-name="Close">
+  <p>Force Close/off intent (value 0)</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('Close',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - Close"
+  });
+</script>
+
+<script type="text/x-red" data-template-name="NoIntent">
+</script>
+
+<script type="text/x-red" data-help-name="NoIntent">
+  <p>Force no intent</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('NoIntent',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - No intent"
+  });
+</script>
+
+<script type="text/x-red" data-template-name="OnOpen">
+</script>
+
+<script type="text/x-red" data-help-name="OnOpen">
+  <p>Filters only "open" intents</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('OnOpen',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - On Open"
+  });
+</script>
+
+<script type="text/x-red" data-template-name="OnClose">
+</script>
+
+<script type="text/x-red" data-help-name="OnClose">
+  <p>Filters only "close" intents</p>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType('OnClose',{
+    color: "#fff",
+    category: 'intent',
+    defaults: {},
+    inputs:1,
+    outputs: 1,
+    icon: "function.png",
+    label: "Intent - On Close"
+  });
+</script>
